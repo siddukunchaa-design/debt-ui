@@ -1,0 +1,15 @@
+# CODEOWNERS
+# Format: <file pattern> <owner1> <owner2> ...
+# Owners can be GitHub users (e.g. @username) or teams (e.g. @org/team)
+
+# Default owner for everything (fallback)
+*       @siddukunchaa-design
+
+# Project is a Vite React frontend (no separate `frontend/` or `backend/` folders)
+# Apply ownership to the actual top-level paths in this repository.
+/src/             @siddukunchaa-design
+/public/          @siddukunchaa-design
+/index.html       @siddukunchaa-design
+/package.json     @siddukunchaa-design
+/README.md        @siddukunchaa-design
+/.github/         @siddukunchaa-design
